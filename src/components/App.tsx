@@ -61,7 +61,7 @@ function App() {
       </header>
       <section className='grid grid-cols-2 p-4 gap-4 min-h-min'>
         <TextareaAutosize
-          className='bg-[#191c1f] text-[#909090;] outline-none p-2 resize-none rounded font-mono border-2 border-gray-700 focus:border-gray-500'
+          className='bg-[#191c1f] text-[#909090;] outline-none p-2 resize-none rounded font-mono border-2 border-gray-700 focus:border-gray-500 overflow-hidden'
           minRows={40}
           autoFocus
           value={description}
