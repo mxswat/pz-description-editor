@@ -54,7 +54,7 @@ function App() {
         <button
           className='bg-cyan-900 rounded p-1 tracking-wide'
           disabled={!fileHandle}
-          onClick={() => { console.log('click') }}>
+          onClick={saveFile}>
           Save (^S)
         </button>
         <a className='bg-slate-500 rounded p-1' target={'_blank'} href="https://steamcommunity.com/comment/Guide/formattinghelp" rel="noreferrer">Formatting help</a>
