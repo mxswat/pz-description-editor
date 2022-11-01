@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    @apply bg-bg;
+    font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+}
+
+#root {
+    @apply flex-1 flex flex-col;
+}
+
+/* Below, copied from steam! */
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+
+blockquote {
+    border: 1px solid #56707f;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 8px;
+    font-size: 92%;
+    display: table;
+    word-break: break-word;
+}
+
+blockquote::before {
+    content: attr(author);
+}
+
+pre {
+    border: 1px solid #535354;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 8px;
+    font-size: 11px;
+    font-family: Consolas,monospace;
+    white-space: pre;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 23px;
+    color: #5aa9d6;
+    font-weight: normal;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.spoiler {
+    color: #000000;
+    background-color: #000000;
+    padding: 0px 8px;
+}
+
+.spoiler:hover {
+    color: #ffffff;
+}
+
+td, th {
+    border: 1px solid #4d4d4d;
+    padding: 4px;
+}

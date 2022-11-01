@@ -1,0 +1,11 @@
+/* copy pasted from steam css */
+.preview {
+    font-size: 14px;
+    word-wrap: break-word;
+    /* margin-top: 10px; */
+    line-height: 20px;
+    padding-bottom: 16px;
+    padding-right: 8px;
+    color: #acb2b8;
+    white-space: pre-line;
+}
