@@ -78,3 +78,9 @@ td, th {
     border: 1px solid #4d4d4d;
     padding: 4px;
 }
+
+.preview a {
+    color: #ebebeb;
+    text-decoration: underline;
+    cursor: pointer;
+}
